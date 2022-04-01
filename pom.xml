@@ -20,6 +20,8 @@
     <micronaut.version>3.4.1</micronaut.version>
     <exec.mainClass>com.micronauttest.Application</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <repositories>
@@ -93,11 +95,6 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>io.micronaut.build</groupId>
-        <artifactId>micronaut-maven-plugin</artifactId>
-      </plugin>
-      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
